@@ -1,0 +1,31 @@
+{
+  "name": "apinode",
+  "version": "1.0.0",
+  "description": "Api em NojeJS + ORM para banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmardelima/apinode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmardelima/apinode/issues"
+  },
+  "homepage": "https://github.com/edmardelima/apinode#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "orm": "^5.0.5",
+    "typeorm": "^0.2.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
