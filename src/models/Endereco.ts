@@ -6,13 +6,28 @@ import User from './User';
  * @Entity Associa a class Endereco à tabela enderecos
  * @Column Indica que cada item representa uma coluna da tabela endereco
  */
-@Entity('enderecos')
+@Entity('endereco')
 class Endereco {
     @PrimaryGeneratedColumn('increment')
     id: number;
 
     @Column()
-    endereco: string;
+    logradouro: string;
+
+    @Column()
+    numero: number;
+
+    @Column()
+    bairro: string;
+
+    @Column()
+    cidade: string;
+
+    @Column()
+    estado: string;
+
+    @Column()
+    cep: number;
 
     /**
      * Relacionamento um para muitos
