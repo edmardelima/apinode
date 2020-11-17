@@ -5,4 +5,8 @@ const routes = Router();
 
 routes.post('/create-users', UserController.create);
 
+routes.get('/', (req, res) => {
+    return res.json();
+});
+
 export default routes;
